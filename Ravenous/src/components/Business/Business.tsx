@@ -1,19 +1,7 @@
 import React from "react";
-import styles from './Business.module.css'
+import styles from "./Business.module.css";
 
-const business = {
-    imageSrc: "https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg",
-    name: "Sample Business",
-    address: "123 Main Street",
-    city: "Example City",
-    state: "CA",
-    zipCode: "12345",
-    category: "Italian",
-    rating: 4.5,
-    reviewCount: 100
-};
-
-export const Business = () => {
+export const Business = ({ business }) => {
     return (
         <div className={styles.Business}>
             <div className={styles.imageContainer}>
@@ -35,4 +23,3 @@ export const Business = () => {
         </div>
     );
 };
-
