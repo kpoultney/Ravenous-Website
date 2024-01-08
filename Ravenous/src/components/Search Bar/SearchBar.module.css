@@ -6,6 +6,7 @@
     justify-content: center;
     background-image: url("./background_search_desktop.jpg");
     background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     height: 25rem;
   }
